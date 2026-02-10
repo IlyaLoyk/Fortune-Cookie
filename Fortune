@@ -1,0 +1,25 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+int main() {
+  // Write code here 💖
+  srand(time(NULL));
+  int dice = rand() % 50;
+  cout << dice << endl;
+  if(dice == 10)
+    cout << "Don't pursue happiness – create it.";
+    else if(dice == 23)
+    cout << "All things are difficult before they are easy.";
+    else if(dice == 45)
+    cout << "The early bird gets the worm, but the second mouse gets the cheese.";
+    else if(dice == 0)
+    cout << "Someone in your life needs a letter from you.";
+    else if(dice == 31)
+    cout << "The fortune you search for is in another cookie.";
+    else if(dice == 12)
+    cout << "Help! I'm being held prisoner in a Chinese bakery!";
+    else{
+      cout << "The fortune you search for is in another cookie. " << endl;
+      cout << "Lucky numbers: 10 23 45 0 31 12";
+    }
+}
