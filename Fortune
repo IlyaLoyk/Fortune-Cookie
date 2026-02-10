@@ -15,7 +15,7 @@ int main() {
     else if(dice == 0)
     cout << "Someone in your life needs a letter from you.";
     else if(dice == 31)
-    cout << "The fortune you search for is in another cookie.";
+    cout << "Your path is difficult, but the view from the top is amazing.";
     else if(dice == 12)
     cout << "Help! I'm being held prisoner in a Chinese bakery!";
     else{
